@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+<body>
+    <center>
+        <form action="adduser.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="firstname">Ime: </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="firstname" name="firstname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lastname">Prezime: </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="lastname" name="lastname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail: </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Muško
+                        <br>
+                        <input type="radio" name="gender" value="Female">Žensko
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Pošalji">
+                        <input type="reset" value="Poništi"> 
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
